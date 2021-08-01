@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="flex flex-row h-full rounded-xl" style="background-color: #394642;">
     <span class="z-0">
       <div class="absolute p-1.5 m-2 logo-bg rounded-full">
@@ -39,11 +40,14 @@
       </div>
     </span>
   </div>
+  <p class="mt-2 text-center">I don't have Torus font pls donate</p>
+  <NuxtLink to="/"><p class="mt-2 text-center">Home</p></NuxtLink>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'Beatmaps',
+  name: 'Beatmap',
   data () {
     return {
       cover: require('~/assets/Cover.png')

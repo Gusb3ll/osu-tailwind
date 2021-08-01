@@ -1,13 +1,13 @@
 <template>
-  <Beatmaps />
+  <div class="flex flex-col gap-y-4">
+    <NuxtLink to="/components/beatmap">- Beatmap</NuxtLink>
+    <NuxtLink to="/components/player">- Player Card</NuxtLink>
+  </div>
 </template>
 
 <script>
-import Beatmaps from '~/components/Beatmaps.vue'
-
 export default {
-  components: {
-    Beatmaps
-  }
+  layout: 'none'
 }
 </script>
+
