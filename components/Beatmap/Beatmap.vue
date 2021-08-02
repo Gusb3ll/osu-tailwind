@@ -26,17 +26,12 @@
 <script>
 export default {
   name: 'Beatmap',
-  data () {
-    return {
-      cover: require('~/assets/Cover.png')
-    }
-  }
 }
 </script>
 
 <style>
 * {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Torus' ,'Varela Round' ,sans-serif;
 }
 
 .info-bg {

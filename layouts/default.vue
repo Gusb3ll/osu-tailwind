@@ -1,6 +1,6 @@
 <template>
   <main class="flex h-screen">
-    <div class="m-auto">
+    <div class="mx-auto my-8">
       <Nuxt />
     </div>
   </main>
