@@ -49,7 +49,7 @@
             </defs>
           </svg>
         </div>
-        <div class="flex flex-row gap-x-1.5 ml-18 pt-2.5">
+        <div class="flex flex-row gap-x-1.5 ml-18 pt-2.5 hidden lg:block">
           <h2 class="text-white text-[0.70rem]">Last online 2 hours ago</h2>
         </div>
       </div>
@@ -62,9 +62,3 @@ export default {
   name: 'PlayerList',
 }
 </script>
-
-<style>
-* {
-  font-family: 'Torus' ,'Varela Round' ,sans-serif;
-}
-</style>

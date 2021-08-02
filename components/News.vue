@@ -17,9 +17,3 @@
     </div>
   </div>
 </template>
-
-<style>
-* {
-  font-family: 'Torus' ,'Varela Round' ,sans-serif;
-}
-</style>

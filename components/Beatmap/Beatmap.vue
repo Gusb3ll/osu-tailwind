@@ -1,10 +1,10 @@
 <template>
 <div>
   <div class="flex flex-row h-full rounded-xl bg-[#394642] transition-all transform hover:scale-105">
-    <div class="z-0">
-      <img class="rounded-lg h-26" src="https://assets.ppy.sh/beatmaps/1514385/covers/list.jpg">
+    <div class="z-0 hidden md:block">
+      <img class="rounded-lg h-26 object-cover" src="https://assets.ppy.sh/beatmaps/1514385/covers/list.jpg">
     </div>
-    <div class="z-10 -ml-3">
+    <div class="z-10 lg:-ml-3 w-full">
       <div class="flex flex-col justify-between h-full px-2 py-1 mr-2 rounded-lg bg-[#2f3a36] pr-30">
         <div class="text-white">
           <h1 id="title">Weaponized</h1>
@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style>
-* {
-  font-family: 'Torus' ,'Varela Round' ,sans-serif;
-}
-
 .info-bg {
   background: url('~/assets/Info-box.png') no-repeat;
   background-size: cover;

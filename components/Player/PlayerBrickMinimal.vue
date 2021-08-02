@@ -24,9 +24,3 @@ export default {
   name: 'PlayerBrickMinimal',
 }
 </script>
-
-<style>
-* {
-  font-family: 'Torus' ,'Varela Round' ,sans-serif;
-}
-</style>

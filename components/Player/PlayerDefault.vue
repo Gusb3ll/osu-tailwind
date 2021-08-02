@@ -4,7 +4,7 @@
       <div class="z-10 -mr-8.5">
         <img class="rounded-lg h-14" src="https://a.ppy.sh/11357248?1625223949.png">
       </div>
-      <div class="z-0">
+      <div class="z-0 w-full">
         <div class="flex flex-col h-14 pl-10 pr-8 rounded-lg bg-[#2f3a36] py-0.5 space-y-1">
             <h1 id="title" class="text-white">Gusbell</h1>
             <div class="flex flex-row gap-x-1.5">
@@ -57,11 +57,3 @@ export default {
   name: 'PlayerDefault',
 }
 </script>
-
-</script>
-
-<style>
-* {
-  font-family: 'Torus' ,'Varela Round' ,sans-serif;
-}
-</style>
