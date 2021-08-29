@@ -4,7 +4,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'testing',
+    title: 'osu!tailwind',
     htmlAttrs: {
       lang: 'en'
     },
